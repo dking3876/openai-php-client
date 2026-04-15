@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\VectorStoresFilesContract;
-use OpenAI\Responses\VectorStores\Files\VectorStoreFileDeleteResponse;
-use OpenAI\Responses\VectorStores\Files\VectorStoreFileListResponse;
-use OpenAI\Responses\VectorStores\Files\VectorStoreFileResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\VectorStoresFilesContract;
+use DKing\OpenAI\Responses\VectorStores\Files\VectorStoreFileDeleteResponse;
+use DKing\OpenAI\Responses\VectorStores\Files\VectorStoreFileListResponse;
+use DKing\OpenAI\Responses\VectorStores\Files\VectorStoreFileResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class VectorStoresFiles implements VectorStoresFilesContract
 {

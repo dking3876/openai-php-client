@@ -2,10 +2,10 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\VectorStores\Search\VectorStoreSearchResponse;
-use OpenAI\Responses\VectorStores\VectorStoreDeleteResponse;
-use OpenAI\Responses\VectorStores\VectorStoreListResponse;
-use OpenAI\Responses\VectorStores\VectorStoreResponse;
+use DKing\OpenAI\Responses\VectorStores\Search\VectorStoreSearchResponse;
+use DKing\OpenAI\Responses\VectorStores\VectorStoreDeleteResponse;
+use DKing\OpenAI\Responses\VectorStores\VectorStoreListResponse;
+use DKing\OpenAI\Responses\VectorStores\VectorStoreResponse;
 
 interface VectorStoresContract
 {

@@ -6,10 +6,10 @@ namespace DKing\OpenAI\ValueObjects\Transporter;
 
 use Http\Discovery\Psr17Factory;
 use Http\Message\MultipartStream\MultipartStreamBuilder;
-use OpenAI\Contracts\Request;
-use OpenAI\Enums\Transporter\ContentType;
-use OpenAI\Enums\Transporter\Method;
-use OpenAI\ValueObjects\ResourceUri;
+use DKing\OpenAI\Contracts\Request;
+use DKing\OpenAI\Enums\Transporter\ContentType;
+use DKing\OpenAI\Enums\Transporter\Method;
+use DKing\OpenAI\ValueObjects\ResourceUri;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\StreamInterface;
 

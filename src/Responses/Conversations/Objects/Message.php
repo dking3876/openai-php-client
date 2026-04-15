@@ -4,17 +4,17 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Conversations\Objects;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Responses\Conversations\Objects\MessageTypes\ComputerScreenshotContent as ComputerScreenshot;
-use OpenAI\Responses\Conversations\Objects\MessageTypes\SummaryText;
-use OpenAI\Responses\Conversations\Objects\MessageTypes\TextContent as Text;
-use OpenAI\Responses\Responses\Input\InputMessageContentInputFile as InputFile;
-use OpenAI\Responses\Responses\Input\InputMessageContentInputImage as InputImage;
-use OpenAI\Responses\Responses\Input\InputMessageContentInputText as InputText;
-use OpenAI\Responses\Responses\Output\OutputMessageContentOutputText as OutputText;
-use OpenAI\Responses\Responses\Output\OutputMessageContentRefusal as Refusal;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Responses\Conversations\Objects\MessageTypes\ComputerScreenshotContent as ComputerScreenshot;
+use DKing\OpenAI\Responses\Conversations\Objects\MessageTypes\SummaryText;
+use DKing\OpenAI\Responses\Conversations\Objects\MessageTypes\TextContent as Text;
+use DKing\OpenAI\Responses\Responses\Input\InputMessageContentInputFile as InputFile;
+use DKing\OpenAI\Responses\Responses\Input\InputMessageContentInputImage as InputImage;
+use DKing\OpenAI\Responses\Responses\Input\InputMessageContentInputText as InputText;
+use DKing\OpenAI\Responses\Responses\Output\OutputMessageContentOutputText as OutputText;
+use DKing\OpenAI\Responses\Responses\Output\OutputMessageContentRefusal as Refusal;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-import-type ContentInputTextType from InputText as InputTextType

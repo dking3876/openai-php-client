@@ -4,19 +4,19 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Responses\Output;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionClick as Click;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionDoubleClick as DoubleClick;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionDrag as Drag;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionKeyPress as KeyPress;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionMove as Move;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionScreenshot as Screenshot;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionScroll as Scroll;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionType as Type;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionWait as Wait;
-use OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerPendingSafetyCheck;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionClick as Click;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionDoubleClick as DoubleClick;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionDrag as Drag;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionKeyPress as KeyPress;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionMove as Move;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionScreenshot as Screenshot;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionScroll as Scroll;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionType as Type;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerActionWait as Wait;
+use DKing\OpenAI\Responses\Responses\Output\ComputerAction\OutputComputerPendingSafetyCheck;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-import-type ClickType from Click

@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\AudioContract;
-use OpenAI\Responses\Audio\SpeechStreamResponse;
-use OpenAI\Responses\Audio\TranscriptionResponse;
-use OpenAI\Responses\Audio\TranscriptionStreamResponse;
-use OpenAI\Responses\Audio\TranslationResponse;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\AudioContract;
+use DKing\OpenAI\Responses\Audio\SpeechStreamResponse;
+use DKing\OpenAI\Responses\Audio\TranscriptionResponse;
+use DKing\OpenAI\Responses\Audio\TranscriptionStreamResponse;
+use DKing\OpenAI\Responses\Audio\TranslationResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class Audio implements AudioContract
 {

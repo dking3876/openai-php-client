@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\FineTunesContract;
-use OpenAI\Responses\FineTunes\ListEventsResponse;
-use OpenAI\Responses\FineTunes\ListResponse;
-use OpenAI\Responses\FineTunes\RetrieveResponse;
-use OpenAI\Responses\FineTunes\RetrieveStreamedResponseEvent;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\FineTunesContract;
+use DKing\OpenAI\Responses\FineTunes\ListEventsResponse;
+use DKing\OpenAI\Responses\FineTunes\ListResponse;
+use DKing\OpenAI\Responses\FineTunes\RetrieveResponse;
+use DKing\OpenAI\Responses\FineTunes\RetrieveStreamedResponseEvent;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class FineTunes implements FineTunesContract
 {

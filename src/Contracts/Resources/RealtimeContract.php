@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Realtime\SessionResponse;
-use OpenAI\Responses\Realtime\TranscriptionSessionResponse;
+use DKing\OpenAI\Responses\Realtime\SessionResponse;
+use DKing\OpenAI\Responses\Realtime\TranscriptionSessionResponse;
 
 interface RealtimeContract
 {

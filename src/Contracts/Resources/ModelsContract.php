@@ -2,9 +2,9 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Models\DeleteResponse;
-use OpenAI\Responses\Models\ListResponse;
-use OpenAI\Responses\Models\RetrieveResponse;
+use DKing\OpenAI\Responses\Models\DeleteResponse;
+use DKing\OpenAI\Responses\Models\ListResponse;
+use DKing\OpenAI\Responses\Models\RetrieveResponse;
 
 interface ModelsContract
 {

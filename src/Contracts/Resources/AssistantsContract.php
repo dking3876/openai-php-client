@@ -2,9 +2,9 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Assistants\AssistantDeleteResponse;
-use OpenAI\Responses\Assistants\AssistantListResponse;
-use OpenAI\Responses\Assistants\AssistantResponse;
+use DKing\OpenAI\Responses\Assistants\AssistantDeleteResponse;
+use DKing\OpenAI\Responses\Assistants\AssistantListResponse;
+use DKing\OpenAI\Responses\Assistants\AssistantResponse;
 
 interface AssistantsContract
 {

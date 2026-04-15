@@ -2,11 +2,11 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\RealtimeContract;
-use OpenAI\Resources\Realtime;
-use OpenAI\Responses\Realtime\SessionResponse;
-use OpenAI\Responses\Realtime\TranscriptionSessionResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\RealtimeContract;
+use DKing\OpenAI\Resources\Realtime;
+use DKing\OpenAI\Responses\Realtime\SessionResponse;
+use DKing\OpenAI\Responses\Realtime\TranscriptionSessionResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class RealtimeTestResource implements RealtimeContract
 {

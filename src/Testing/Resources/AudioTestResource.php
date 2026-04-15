@@ -2,13 +2,13 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\AudioContract;
-use OpenAI\Resources\Audio;
-use OpenAI\Responses\Audio\SpeechStreamResponse;
-use OpenAI\Responses\Audio\TranscriptionResponse;
-use OpenAI\Responses\Audio\TranslationResponse;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\AudioContract;
+use DKing\OpenAI\Resources\Audio;
+use DKing\OpenAI\Responses\Audio\SpeechStreamResponse;
+use DKing\OpenAI\Responses\Audio\TranscriptionResponse;
+use DKing\OpenAI\Responses\Audio\TranslationResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class AudioTestResource implements AudioContract
 {

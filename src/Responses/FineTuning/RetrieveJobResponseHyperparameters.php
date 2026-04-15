@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\FineTuning;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
 
 /**
  * @implements ResponseContract<array{n_epochs: int|string, batch_size: int|string|null, learning_rate_multiplier: float|string|null}>

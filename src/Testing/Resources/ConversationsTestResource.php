@@ -2,12 +2,12 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ConversationsContract;
-use OpenAI\Contracts\Resources\ConversationsItemsContract;
-use OpenAI\Resources\Conversations;
-use OpenAI\Responses\Conversations\ConversationDeletedResponse;
-use OpenAI\Responses\Conversations\ConversationResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ConversationsContract;
+use DKing\OpenAI\Contracts\Resources\ConversationsItemsContract;
+use DKing\OpenAI\Resources\Conversations;
+use DKing\OpenAI\Responses\Conversations\ConversationDeletedResponse;
+use DKing\OpenAI\Responses\Conversations\ConversationResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class ConversationsTestResource implements ConversationsContract
 {

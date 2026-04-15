@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Responses\Output;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-type OutputMcpListToolsToolType array{annotations: array<string, string>|null, description: ?string, input_schema: array<string, string>, name: string}

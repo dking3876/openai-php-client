@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Responses\Input;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-type LocalShellCallOutputType array{id: string, output: string, type: 'local_shell_call_output', status: 'in_progress'|'completed'|'incomplete'|null}

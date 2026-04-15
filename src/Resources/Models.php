@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ModelsContract;
-use OpenAI\Responses\Models\DeleteResponse;
-use OpenAI\Responses\Models\ListResponse;
-use OpenAI\Responses\Models\RetrieveResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ModelsContract;
+use DKing\OpenAI\Responses\Models\DeleteResponse;
+use DKing\OpenAI\Responses\Models\ListResponse;
+use DKing\OpenAI\Responses\Models\RetrieveResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class Models implements ModelsContract
 {

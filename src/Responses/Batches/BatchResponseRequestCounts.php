@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Batches;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
 
 /**
  * @implements ResponseContract<array{total: int, completed: int, failed: int}>

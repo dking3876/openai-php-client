@@ -2,9 +2,9 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Threads\Messages\ThreadMessageDeleteResponse;
-use OpenAI\Responses\Threads\Messages\ThreadMessageListResponse;
-use OpenAI\Responses\Threads\Messages\ThreadMessageResponse;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageDeleteResponse;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageListResponse;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageResponse;
 
 interface ThreadsMessagesContract
 {

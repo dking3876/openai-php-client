@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Responses\Output;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Responses\Responses\Output\WebSearch\OutputWebSearchAction;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Responses\Responses\Output\WebSearch\OutputWebSearchAction;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-import-type WebSearchActionType from OutputWebSearchAction

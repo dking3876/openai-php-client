@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ConversationsItemsContract;
-use OpenAI\Responses\Conversations\ConversationItem;
-use OpenAI\Responses\Conversations\ConversationItemList;
-use OpenAI\Responses\Conversations\ConversationResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ConversationsItemsContract;
+use DKing\OpenAI\Responses\Conversations\ConversationItem;
+use DKing\OpenAI\Responses\Conversations\ConversationItemList;
+use DKing\OpenAI\Responses\Conversations\ConversationResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 /**
  * @phpstan-import-type ConversationItemType from ConversationItem

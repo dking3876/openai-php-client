@@ -3,7 +3,7 @@
 namespace DKing\OpenAI\Webhooks;
 
 use DateTimeInterface;
-use OpenAI\Exceptions\WebhookVerificationException;
+use DKing\OpenAI\Exceptions\WebhookVerificationException;
 use Psr\Http\Message\RequestInterface;
 use RuntimeException;
 use UnexpectedValueException;

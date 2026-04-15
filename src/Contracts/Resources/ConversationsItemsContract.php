@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Conversations\ConversationItem;
-use OpenAI\Responses\Conversations\ConversationItemList;
-use OpenAI\Responses\Conversations\ConversationResponse;
+use DKing\OpenAI\Responses\Conversations\ConversationItem;
+use DKing\OpenAI\Responses\Conversations\ConversationItemList;
+use DKing\OpenAI\Responses\Conversations\ConversationResponse;
 
 interface ConversationsItemsContract
 {

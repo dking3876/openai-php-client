@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\VectorStoresContract;
-use OpenAI\Contracts\Resources\VectorStoresFileBatchesContract;
-use OpenAI\Contracts\Resources\VectorStoresFilesContract;
-use OpenAI\Responses\VectorStores\Search\VectorStoreSearchResponse;
-use OpenAI\Responses\VectorStores\VectorStoreDeleteResponse;
-use OpenAI\Responses\VectorStores\VectorStoreListResponse;
-use OpenAI\Responses\VectorStores\VectorStoreResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\VectorStoresContract;
+use DKing\OpenAI\Contracts\Resources\VectorStoresFileBatchesContract;
+use DKing\OpenAI\Contracts\Resources\VectorStoresFilesContract;
+use DKing\OpenAI\Responses\VectorStores\Search\VectorStoreSearchResponse;
+use DKing\OpenAI\Responses\VectorStores\VectorStoreDeleteResponse;
+use DKing\OpenAI\Responses\VectorStores\VectorStoreListResponse;
+use DKing\OpenAI\Responses\VectorStores\VectorStoreResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class VectorStores implements VectorStoresContract
 {

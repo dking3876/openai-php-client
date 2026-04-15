@@ -2,10 +2,10 @@
 
 namespace DKing\OpenAI\Testing\Resources\Concerns;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Contracts\ResponseStreamContract;
-use OpenAI\Testing\ClientFake;
-use OpenAI\Testing\Requests\TestRequest;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Contracts\ResponseStreamContract;
+use DKing\OpenAI\Testing\ClientFake;
+use DKing\OpenAI\Testing\Requests\TestRequest;
 
 trait Testable
 {

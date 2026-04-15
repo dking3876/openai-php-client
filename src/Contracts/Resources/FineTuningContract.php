@@ -2,9 +2,9 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\FineTuning\ListJobEventsResponse;
-use OpenAI\Responses\FineTuning\ListJobsResponse;
-use OpenAI\Responses\FineTuning\RetrieveJobResponse;
+use DKing\OpenAI\Responses\FineTuning\ListJobEventsResponse;
+use DKing\OpenAI\Responses\FineTuning\ListJobsResponse;
+use DKing\OpenAI\Responses\FineTuning\RetrieveJobResponse;
 
 interface FineTuningContract
 {

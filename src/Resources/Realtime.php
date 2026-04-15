@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\RealtimeContract;
-use OpenAI\Responses\Realtime\SessionResponse;
-use OpenAI\Responses\Realtime\TranscriptionSessionResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\RealtimeContract;
+use DKing\OpenAI\Responses\Realtime\SessionResponse;
+use DKing\OpenAI\Responses\Realtime\TranscriptionSessionResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 /**
  * @phpstan-import-type SessionType from SessionResponse

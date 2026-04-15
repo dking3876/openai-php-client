@@ -4,23 +4,23 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Responses\Streaming;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Contracts\ResponseHasMetaInformationContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Responses\Concerns\HasMetaInformation;
-use OpenAI\Responses\Meta\MetaInformation;
-use OpenAI\Responses\Responses\Output\OutputCodeInterpreterToolCall;
-use OpenAI\Responses\Responses\Output\OutputComputerToolCall;
-use OpenAI\Responses\Responses\Output\OutputFileSearchToolCall;
-use OpenAI\Responses\Responses\Output\OutputFunctionToolCall;
-use OpenAI\Responses\Responses\Output\OutputImageGenerationToolCall;
-use OpenAI\Responses\Responses\Output\OutputMcpApprovalRequest;
-use OpenAI\Responses\Responses\Output\OutputMcpCall;
-use OpenAI\Responses\Responses\Output\OutputMcpListTools;
-use OpenAI\Responses\Responses\Output\OutputMessage;
-use OpenAI\Responses\Responses\Output\OutputReasoning;
-use OpenAI\Responses\Responses\Output\OutputWebSearchToolCall;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Contracts\ResponseHasMetaInformationContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Responses\Concerns\HasMetaInformation;
+use DKing\OpenAI\Responses\Meta\MetaInformation;
+use DKing\OpenAI\Responses\Responses\Output\OutputCodeInterpreterToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputComputerToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputFileSearchToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputFunctionToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputImageGenerationToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputMcpApprovalRequest;
+use DKing\OpenAI\Responses\Responses\Output\OutputMcpCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputMcpListTools;
+use DKing\OpenAI\Responses\Responses\Output\OutputMessage;
+use DKing\OpenAI\Responses\Responses\Output\OutputReasoning;
+use DKing\OpenAI\Responses\Responses\Output\OutputWebSearchToolCall;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-import-type OutputComputerToolCallType from OutputComputerToolCall

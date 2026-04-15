@@ -2,14 +2,14 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ContainerFileContract;
-use OpenAI\Contracts\Resources\ContainersContract;
-use OpenAI\Resources\Containers;
-use OpenAI\Responses\Containers\CreateContainer;
-use OpenAI\Responses\Containers\DeleteContainer;
-use OpenAI\Responses\Containers\ListContainers;
-use OpenAI\Responses\Containers\RetrieveContainer;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ContainerFileContract;
+use DKing\OpenAI\Contracts\Resources\ContainersContract;
+use DKing\OpenAI\Resources\Containers;
+use DKing\OpenAI\Responses\Containers\CreateContainer;
+use DKing\OpenAI\Responses\Containers\DeleteContainer;
+use DKing\OpenAI\Responses\Containers\ListContainers;
+use DKing\OpenAI\Responses\Containers\RetrieveContainer;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class ContainersTestResource implements ContainersContract
 {

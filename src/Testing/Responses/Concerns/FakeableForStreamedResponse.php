@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace DKing\OpenAI\Testing\Responses\Concerns;
 
 use Http\Discovery\Psr17FactoryDiscovery;
-use OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\StreamResponse;
 
 trait FakeableForStreamedResponse
 {

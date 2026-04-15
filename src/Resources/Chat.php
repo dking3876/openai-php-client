@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ChatContract;
-use OpenAI\Responses\Chat\CreateResponse;
-use OpenAI\Responses\Chat\CreateStreamedResponse;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ChatContract;
+use DKing\OpenAI\Responses\Chat\CreateResponse;
+use DKing\OpenAI\Responses\Chat\CreateStreamedResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class Chat implements ChatContract
 {

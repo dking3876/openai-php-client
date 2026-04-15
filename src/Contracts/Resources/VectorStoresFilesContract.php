@@ -2,9 +2,9 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\VectorStores\Files\VectorStoreFileDeleteResponse;
-use OpenAI\Responses\VectorStores\Files\VectorStoreFileListResponse;
-use OpenAI\Responses\VectorStores\Files\VectorStoreFileResponse;
+use DKing\OpenAI\Responses\VectorStores\Files\VectorStoreFileDeleteResponse;
+use DKing\OpenAI\Responses\VectorStores\Files\VectorStoreFileListResponse;
+use DKing\OpenAI\Responses\VectorStores\Files\VectorStoreFileResponse;
 
 interface VectorStoresFilesContract
 {

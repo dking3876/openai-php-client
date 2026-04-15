@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Moderations;
 
-use OpenAI\Enums\Moderations\Category;
+use DKing\OpenAI\Enums\Moderations\Category;
 
 final class CreateResponseCategory
 {

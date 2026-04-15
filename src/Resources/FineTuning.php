@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\FineTuningContract;
-use OpenAI\Responses\FineTuning\ListJobEventsResponse;
-use OpenAI\Responses\FineTuning\ListJobsResponse;
-use OpenAI\Responses\FineTuning\RetrieveJobResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\FineTuningContract;
+use DKing\OpenAI\Responses\FineTuning\ListJobEventsResponse;
+use DKing\OpenAI\Responses\FineTuning\ListJobsResponse;
+use DKing\OpenAI\Responses\FineTuning\RetrieveJobResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class FineTuning implements FineTuningContract
 {

@@ -2,7 +2,7 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Moderations\CreateResponse;
+use DKing\OpenAI\Responses\Moderations\CreateResponse;
 
 interface ModerationsContract
 {

@@ -2,7 +2,7 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Embeddings\CreateResponse;
+use DKing\OpenAI\Responses\Embeddings\CreateResponse;
 
 interface EmbeddingsContract
 {

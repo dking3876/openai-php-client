@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Responses\Format;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-type JsonSchemaFormatType array{name: string, schema: array<string, mixed>, type: 'json_schema', description: ?string, strict: ?bool}

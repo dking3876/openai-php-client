@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Testing\Responses\Concerns;
 
-use OpenAI\Responses\Meta\MetaInformation;
-use OpenAI\Testing\Enums\OverrideStrategy;
+use DKing\OpenAI\Responses\Meta\MetaInformation;
+use DKing\OpenAI\Testing\Enums\OverrideStrategy;
 
 trait Fakeable
 {

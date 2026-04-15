@@ -2,7 +2,7 @@
 
 namespace DKing\OpenAI\Resources\Concerns;
 
-use OpenAI\Exceptions\InvalidArgumentException;
+use DKing\OpenAI\Exceptions\InvalidArgumentException;
 
 trait Streamable
 {

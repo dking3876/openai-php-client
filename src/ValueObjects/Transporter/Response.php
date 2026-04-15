@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\ValueObjects\Transporter;
 
-use OpenAI\Responses\Meta\MetaInformation;
+use DKing\OpenAI\Responses\Meta\MetaInformation;
 
 /**
  * @template-covariant TData of array

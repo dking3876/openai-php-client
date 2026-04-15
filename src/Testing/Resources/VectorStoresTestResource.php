@@ -2,15 +2,15 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\VectorStoresContract;
-use OpenAI\Contracts\Resources\VectorStoresFileBatchesContract;
-use OpenAI\Contracts\Resources\VectorStoresFilesContract;
-use OpenAI\Resources\VectorStores;
-use OpenAI\Responses\VectorStores\Search\VectorStoreSearchResponse;
-use OpenAI\Responses\VectorStores\VectorStoreDeleteResponse;
-use OpenAI\Responses\VectorStores\VectorStoreListResponse;
-use OpenAI\Responses\VectorStores\VectorStoreResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\VectorStoresContract;
+use DKing\OpenAI\Contracts\Resources\VectorStoresFileBatchesContract;
+use DKing\OpenAI\Contracts\Resources\VectorStoresFilesContract;
+use DKing\OpenAI\Resources\VectorStores;
+use DKing\OpenAI\Responses\VectorStores\Search\VectorStoreSearchResponse;
+use DKing\OpenAI\Responses\VectorStores\VectorStoreDeleteResponse;
+use DKing\OpenAI\Responses\VectorStores\VectorStoreListResponse;
+use DKing\OpenAI\Responses\VectorStores\VectorStoreResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class VectorStoresTestResource implements VectorStoresContract
 {

@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Containers\CreateContainer;
-use OpenAI\Responses\Containers\DeleteContainer;
-use OpenAI\Responses\Containers\ListContainers;
-use OpenAI\Responses\Containers\RetrieveContainer;
+use DKing\OpenAI\Responses\Containers\CreateContainer;
+use DKing\OpenAI\Responses\Containers\DeleteContainer;
+use DKing\OpenAI\Responses\Containers\ListContainers;
+use DKing\OpenAI\Responses\Containers\RetrieveContainer;
 
 interface ContainersContract
 {

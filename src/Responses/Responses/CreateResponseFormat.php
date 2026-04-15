@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Responses;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Responses\Responses\Format\JsonObjectFormat;
-use OpenAI\Responses\Responses\Format\JsonSchemaFormat;
-use OpenAI\Responses\Responses\Format\TextFormat;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Responses\Responses\Format\JsonObjectFormat;
+use DKing\OpenAI\Responses\Responses\Format\JsonSchemaFormat;
+use DKing\OpenAI\Responses\Responses\Format\TextFormat;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-import-type JsonObjectFormatType from JsonObjectFormat

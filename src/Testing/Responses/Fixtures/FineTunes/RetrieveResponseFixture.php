@@ -2,7 +2,7 @@
 
 namespace DKing\OpenAI\Testing\Responses\Fixtures\FineTunes;
 
-use OpenAI\Testing\Responses\Fixtures\Files\CreateResponseFixture;
+use DKing\OpenAI\Testing\Responses\Fixtures\Files\CreateResponseFixture;
 
 final class RetrieveResponseFixture
 {

@@ -2,11 +2,11 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\FineTunes\ListEventsResponse;
-use OpenAI\Responses\FineTunes\ListResponse;
-use OpenAI\Responses\FineTunes\RetrieveResponse;
-use OpenAI\Responses\FineTunes\RetrieveStreamedResponseEvent;
-use OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\FineTunes\ListEventsResponse;
+use DKing\OpenAI\Responses\FineTunes\ListResponse;
+use DKing\OpenAI\Responses\FineTunes\RetrieveResponse;
+use DKing\OpenAI\Responses\FineTunes\RetrieveStreamedResponseEvent;
+use DKing\OpenAI\Responses\StreamResponse;
 
 interface FineTunesContract
 {

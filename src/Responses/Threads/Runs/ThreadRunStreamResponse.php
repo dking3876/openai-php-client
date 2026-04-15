@@ -2,15 +2,15 @@
 
 namespace DKing\OpenAI\Responses\Threads\Runs;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Exceptions\UnknownEventException;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Responses\Threads\Messages\Delta\ThreadMessageDeltaResponse;
-use OpenAI\Responses\Threads\Messages\ThreadMessageResponse;
-use OpenAI\Responses\Threads\Runs\Steps\Delta\ThreadRunStepDeltaResponse;
-use OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepResponse;
-use OpenAI\Responses\Threads\ThreadResponse;
-use OpenAI\Testing\Responses\Concerns\FakeableForStreamedResponse;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Exceptions\UnknownEventException;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Responses\Threads\Messages\Delta\ThreadMessageDeltaResponse;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageResponse;
+use DKing\OpenAI\Responses\Threads\Runs\Steps\Delta\ThreadRunStepDeltaResponse;
+use DKing\OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepResponse;
+use DKing\OpenAI\Responses\Threads\ThreadResponse;
+use DKing\OpenAI\Testing\Responses\Concerns\FakeableForStreamedResponse;
 
 /**
  * @implements ResponseContract<array{event: string, data: array<string, mixed>}>

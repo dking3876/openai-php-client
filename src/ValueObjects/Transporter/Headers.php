@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\ValueObjects\Transporter;
 
-use OpenAI\Enums\Transporter\ContentType;
-use OpenAI\ValueObjects\ApiKey;
+use DKing\OpenAI\Enums\Transporter\ContentType;
+use DKing\OpenAI\ValueObjects\ApiKey;
 
 /**
  * @internal

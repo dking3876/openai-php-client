@@ -2,12 +2,12 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ThreadsMessagesContract;
-use OpenAI\Resources\ThreadsMessages;
-use OpenAI\Responses\Threads\Messages\ThreadMessageDeleteResponse;
-use OpenAI\Responses\Threads\Messages\ThreadMessageListResponse;
-use OpenAI\Responses\Threads\Messages\ThreadMessageResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ThreadsMessagesContract;
+use DKing\OpenAI\Resources\ThreadsMessages;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageDeleteResponse;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageListResponse;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class ThreadsMessagesTestResource implements ThreadsMessagesContract
 {

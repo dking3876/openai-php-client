@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\FineTunes;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
 
 /**
  * @implements ResponseContract<array{id: string, object: string, created_at: int, expires_at: int|null, bytes: int, filename: string, purpose: string, status: string, status_details: array<array-key, mixed>|string|null}>

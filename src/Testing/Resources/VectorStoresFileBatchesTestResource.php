@@ -2,11 +2,11 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\VectorStoresFileBatchesContract;
-use OpenAI\Resources\VectorStoresFileBatches;
-use OpenAI\Responses\VectorStores\FileBatches\VectorStoreFileBatchResponse;
-use OpenAI\Responses\VectorStores\Files\VectorStoreFileListResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\VectorStoresFileBatchesContract;
+use DKing\OpenAI\Resources\VectorStoresFileBatches;
+use DKing\OpenAI\Responses\VectorStores\FileBatches\VectorStoreFileBatchResponse;
+use DKing\OpenAI\Responses\VectorStores\Files\VectorStoreFileListResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class VectorStoresFileBatchesTestResource implements VectorStoresFileBatchesContract
 {

@@ -4,30 +4,30 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI;
 
-use OpenAI\Contracts\ClientContract;
-use OpenAI\Contracts\Resources\RealtimeContract;
-use OpenAI\Contracts\Resources\ThreadsContract;
-use OpenAI\Contracts\Resources\VectorStoresContract;
-use OpenAI\Contracts\TransporterContract;
-use OpenAI\Resources\Assistants;
-use OpenAI\Resources\Audio;
-use OpenAI\Resources\Batches;
-use OpenAI\Resources\Chat;
-use OpenAI\Resources\Completions;
-use OpenAI\Resources\Containers;
-use OpenAI\Resources\Conversations;
-use OpenAI\Resources\Edits;
-use OpenAI\Resources\Embeddings;
-use OpenAI\Resources\Files;
-use OpenAI\Resources\FineTunes;
-use OpenAI\Resources\FineTuning;
-use OpenAI\Resources\Images;
-use OpenAI\Resources\Models;
-use OpenAI\Resources\Moderations;
-use OpenAI\Resources\Realtime;
-use OpenAI\Resources\Responses;
-use OpenAI\Resources\Threads;
-use OpenAI\Resources\VectorStores;
+use DKing\OpenAI\Contracts\ClientContract;
+use DKing\OpenAI\Contracts\Resources\RealtimeContract;
+use DKing\OpenAI\Contracts\Resources\ThreadsContract;
+use DKing\OpenAI\Contracts\Resources\VectorStoresContract;
+use DKing\OpenAI\Contracts\TransporterContract;
+use DKing\OpenAI\Resources\Assistants;
+use DKing\OpenAI\Resources\Audio;
+use DKing\OpenAI\Resources\Batches;
+use DKing\OpenAI\Resources\Chat;
+use DKing\OpenAI\Resources\Completions;
+use DKing\OpenAI\Resources\Containers;
+use DKing\OpenAI\Resources\Conversations;
+use DKing\OpenAI\Resources\Edits;
+use DKing\OpenAI\Resources\Embeddings;
+use DKing\OpenAI\Resources\Files;
+use DKing\OpenAI\Resources\FineTunes;
+use DKing\OpenAI\Resources\FineTuning;
+use DKing\OpenAI\Resources\Images;
+use DKing\OpenAI\Resources\Models;
+use DKing\OpenAI\Resources\Moderations;
+use DKing\OpenAI\Resources\Realtime;
+use DKing\OpenAI\Resources\Responses;
+use DKing\OpenAI\Resources\Threads;
+use DKing\OpenAI\Resources\VectorStores;
 
 final class Client implements ClientContract
 {

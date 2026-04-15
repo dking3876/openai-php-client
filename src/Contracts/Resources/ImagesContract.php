@@ -2,9 +2,9 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Images\CreateResponse;
-use OpenAI\Responses\Images\EditResponse;
-use OpenAI\Responses\Images\VariationResponse;
+use DKing\OpenAI\Responses\Images\CreateResponse;
+use DKing\OpenAI\Responses\Images\EditResponse;
+use DKing\OpenAI\Responses\Images\VariationResponse;
 
 interface ImagesContract
 {

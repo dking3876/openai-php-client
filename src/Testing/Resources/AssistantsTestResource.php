@@ -2,12 +2,12 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\AssistantsContract;
-use OpenAI\Resources\Assistants;
-use OpenAI\Responses\Assistants\AssistantDeleteResponse;
-use OpenAI\Responses\Assistants\AssistantListResponse;
-use OpenAI\Responses\Assistants\AssistantResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\AssistantsContract;
+use DKing\OpenAI\Resources\Assistants;
+use DKing\OpenAI\Responses\Assistants\AssistantDeleteResponse;
+use DKing\OpenAI\Responses\Assistants\AssistantListResponse;
+use DKing\OpenAI\Responses\Assistants\AssistantResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class AssistantsTestResource implements AssistantsContract
 {

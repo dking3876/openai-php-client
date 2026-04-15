@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Actions\Responses;
 
-use OpenAI\Responses\Responses\Output\OutputMessage;
-use OpenAI\Responses\Responses\Output\OutputMessageContentOutputText;
+use DKing\OpenAI\Responses\Responses\Output\OutputMessage;
+use DKing\OpenAI\Responses\Responses\Output\OutputMessageContentOutputText;
 
 /**
  * An SDK-only property (output_text) that concatenates all text content from output messages.

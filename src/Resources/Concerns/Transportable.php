@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources\Concerns;
 
-use OpenAI\Contracts\TransporterContract;
+use DKing\OpenAI\Contracts\TransporterContract;
 
 trait Transportable
 {

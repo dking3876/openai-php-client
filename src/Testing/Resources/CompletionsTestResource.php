@@ -2,11 +2,11 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\CompletionsContract;
-use OpenAI\Resources\Completions;
-use OpenAI\Responses\Completions\CreateResponse;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\CompletionsContract;
+use DKing\OpenAI\Resources\Completions;
+use DKing\OpenAI\Responses\Completions\CreateResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class CompletionsTestResource implements CompletionsContract
 {

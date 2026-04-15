@@ -2,10 +2,10 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\EditsContract;
-use OpenAI\Resources\Edits;
-use OpenAI\Responses\Edits\CreateResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\EditsContract;
+use DKing\OpenAI\Resources\Edits;
+use DKing\OpenAI\Responses\Edits\CreateResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class EditsTestResource implements EditsContract
 {

@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Audio;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
 
 /**
  * @implements ResponseContract<array{id: int|string, start: float, end: float, text: string, seek?: int, tokens?: array<int, int>, temperature?: float, avg_logprob?: float, compression_ratio?: float, no_speech_prob?: float, transient?: bool, speaker?: string, type?: string}>

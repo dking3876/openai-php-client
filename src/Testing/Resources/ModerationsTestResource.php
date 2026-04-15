@@ -2,10 +2,10 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ModerationsContract;
-use OpenAI\Resources\Moderations;
-use OpenAI\Responses\Moderations\CreateResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ModerationsContract;
+use DKing\OpenAI\Resources\Moderations;
+use DKing\OpenAI\Responses\Moderations\CreateResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class ModerationsTestResource implements ModerationsContract
 {

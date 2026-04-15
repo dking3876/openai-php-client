@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ThreadsRunsContract;
-use OpenAI\Contracts\Resources\ThreadsRunsStepsContract;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\Responses\Threads\Runs\ThreadRunListResponse;
-use OpenAI\Responses\Threads\Runs\ThreadRunResponse;
-use OpenAI\Responses\Threads\Runs\ThreadRunStreamResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ThreadsRunsContract;
+use DKing\OpenAI\Contracts\Resources\ThreadsRunsStepsContract;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\Threads\Runs\ThreadRunListResponse;
+use DKing\OpenAI\Responses\Threads\Runs\ThreadRunResponse;
+use DKing\OpenAI\Responses\Threads\Runs\ThreadRunStreamResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class ThreadsRuns implements ThreadsRunsContract
 {

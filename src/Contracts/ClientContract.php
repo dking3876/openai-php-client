@@ -2,25 +2,25 @@
 
 namespace DKing\OpenAI\Contracts;
 
-use OpenAI\Contracts\Resources\AssistantsContract;
-use OpenAI\Contracts\Resources\AudioContract;
-use OpenAI\Contracts\Resources\BatchesContract;
-use OpenAI\Contracts\Resources\ChatContract;
-use OpenAI\Contracts\Resources\CompletionsContract;
-use OpenAI\Contracts\Resources\ContainersContract;
-use OpenAI\Contracts\Resources\ConversationsContract;
-use OpenAI\Contracts\Resources\EditsContract;
-use OpenAI\Contracts\Resources\EmbeddingsContract;
-use OpenAI\Contracts\Resources\FilesContract;
-use OpenAI\Contracts\Resources\FineTunesContract;
-use OpenAI\Contracts\Resources\FineTuningContract;
-use OpenAI\Contracts\Resources\ImagesContract;
-use OpenAI\Contracts\Resources\ModelsContract;
-use OpenAI\Contracts\Resources\ModerationsContract;
-use OpenAI\Contracts\Resources\RealtimeContract;
-use OpenAI\Contracts\Resources\ResponsesContract;
-use OpenAI\Contracts\Resources\ThreadsContract;
-use OpenAI\Contracts\Resources\VectorStoresContract;
+use DKing\OpenAI\Contracts\Resources\AssistantsContract;
+use DKing\OpenAI\Contracts\Resources\AudioContract;
+use DKing\OpenAI\Contracts\Resources\BatchesContract;
+use DKing\OpenAI\Contracts\Resources\ChatContract;
+use DKing\OpenAI\Contracts\Resources\CompletionsContract;
+use DKing\OpenAI\Contracts\Resources\ContainersContract;
+use DKing\OpenAI\Contracts\Resources\ConversationsContract;
+use DKing\OpenAI\Contracts\Resources\EditsContract;
+use DKing\OpenAI\Contracts\Resources\EmbeddingsContract;
+use DKing\OpenAI\Contracts\Resources\FilesContract;
+use DKing\OpenAI\Contracts\Resources\FineTunesContract;
+use DKing\OpenAI\Contracts\Resources\FineTuningContract;
+use DKing\OpenAI\Contracts\Resources\ImagesContract;
+use DKing\OpenAI\Contracts\Resources\ModelsContract;
+use DKing\OpenAI\Contracts\Resources\ModerationsContract;
+use DKing\OpenAI\Contracts\Resources\RealtimeContract;
+use DKing\OpenAI\Contracts\Resources\ResponsesContract;
+use DKing\OpenAI\Contracts\Resources\ThreadsContract;
+use DKing\OpenAI\Contracts\Resources\VectorStoresContract;
 
 interface ClientContract
 {

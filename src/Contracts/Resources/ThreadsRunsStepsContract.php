@@ -2,8 +2,8 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepListResponse;
-use OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepResponse;
+use DKing\OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepListResponse;
+use DKing\OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepResponse;
 
 interface ThreadsRunsStepsContract
 {

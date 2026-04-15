@@ -2,12 +2,12 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\FineTuningContract;
-use OpenAI\Resources\FineTuning;
-use OpenAI\Responses\FineTuning\ListJobEventsResponse;
-use OpenAI\Responses\FineTuning\ListJobsResponse;
-use OpenAI\Responses\FineTuning\RetrieveJobResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\FineTuningContract;
+use DKing\OpenAI\Resources\FineTuning;
+use DKing\OpenAI\Responses\FineTuning\ListJobEventsResponse;
+use DKing\OpenAI\Responses\FineTuning\ListJobsResponse;
+use DKing\OpenAI\Responses\FineTuning\RetrieveJobResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class FineTuningTestResource implements FineTuningContract
 {

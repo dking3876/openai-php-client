@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Realtime;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Responses\Realtime\Session\ClientSecret;
-use OpenAI\Responses\Realtime\Session\InputAudioTranscription;
-use OpenAI\Responses\Realtime\Session\TurnDetection;
-use OpenAI\Responses\Realtime\Tools\FunctionTool;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Responses\Realtime\Session\ClientSecret;
+use DKing\OpenAI\Responses\Realtime\Session\InputAudioTranscription;
+use DKing\OpenAI\Responses\Realtime\Session\TurnDetection;
+use DKing\OpenAI\Responses\Realtime\Tools\FunctionTool;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-import-type ClientSecretType from ClientSecret

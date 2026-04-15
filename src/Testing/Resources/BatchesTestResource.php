@@ -2,11 +2,11 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\BatchesContract;
-use OpenAI\Resources\Batches;
-use OpenAI\Responses\Batches\BatchListResponse;
-use OpenAI\Responses\Batches\BatchResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\BatchesContract;
+use DKing\OpenAI\Resources\Batches;
+use DKing\OpenAI\Responses\Batches\BatchListResponse;
+use DKing\OpenAI\Responses\Batches\BatchResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class BatchesTestResource implements BatchesContract
 {

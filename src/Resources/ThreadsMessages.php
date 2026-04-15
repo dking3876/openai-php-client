@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ThreadsMessagesContract;
-use OpenAI\Responses\Threads\Messages\ThreadMessageDeleteResponse;
-use OpenAI\Responses\Threads\Messages\ThreadMessageListResponse;
-use OpenAI\Responses\Threads\Messages\ThreadMessageResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ThreadsMessagesContract;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageDeleteResponse;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageListResponse;
+use DKing\OpenAI\Responses\Threads\Messages\ThreadMessageResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class ThreadsMessages implements ThreadsMessagesContract
 {

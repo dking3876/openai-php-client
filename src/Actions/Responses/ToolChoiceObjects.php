@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Actions\Responses;
 
-use OpenAI\Responses\Responses\ToolChoice\FunctionToolChoice;
-use OpenAI\Responses\Responses\ToolChoice\HostedToolChoice;
+use DKing\OpenAI\Responses\Responses\ToolChoice\FunctionToolChoice;
+use DKing\OpenAI\Responses\Responses\ToolChoice\HostedToolChoice;
 
 /**
  * @phpstan-import-type FunctionToolChoiceType from FunctionToolChoice

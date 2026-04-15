@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\ValueObjects;
 
-use OpenAI\Contracts\StringableContract;
+use DKing\OpenAI\Contracts\StringableContract;
 
 /**
  * @internal

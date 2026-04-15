@@ -2,11 +2,11 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ThreadsRunsStepsContract;
-use OpenAI\Resources\ThreadsRunsSteps;
-use OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepListResponse;
-use OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ThreadsRunsStepsContract;
+use DKing\OpenAI\Resources\ThreadsRunsSteps;
+use DKing\OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepListResponse;
+use DKing\OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 class ThreadsRunsStepsTestResource implements ThreadsRunsStepsContract
 {

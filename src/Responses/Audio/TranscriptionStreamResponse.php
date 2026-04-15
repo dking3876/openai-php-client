@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Audio;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Exceptions\UnknownEventException;
-use OpenAI\Responses\Audio\Streaming\TranscriptTextDelta;
-use OpenAI\Responses\Audio\Streaming\TranscriptTextDone;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Testing\Responses\Concerns\FakeableForStreamedResponse;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Exceptions\UnknownEventException;
+use DKing\OpenAI\Responses\Audio\Streaming\TranscriptTextDelta;
+use DKing\OpenAI\Responses\Audio\Streaming\TranscriptTextDone;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Testing\Responses\Concerns\FakeableForStreamedResponse;
 
 /**
  * @phpstan-type CreateStreamedResponseType array{event: string, data: array<string, mixed>}

@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\AssistantsContract;
-use OpenAI\Responses\Assistants\AssistantDeleteResponse;
-use OpenAI\Responses\Assistants\AssistantListResponse;
-use OpenAI\Responses\Assistants\AssistantResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\AssistantsContract;
+use DKing\OpenAI\Responses\Assistants\AssistantDeleteResponse;
+use DKing\OpenAI\Responses\Assistants\AssistantListResponse;
+use DKing\OpenAI\Responses\Assistants\AssistantResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class Assistants implements AssistantsContract
 {

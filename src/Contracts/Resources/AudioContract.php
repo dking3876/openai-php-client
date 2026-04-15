@@ -2,11 +2,11 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Audio\SpeechStreamResponse;
-use OpenAI\Responses\Audio\TranscriptionResponse;
-use OpenAI\Responses\Audio\TranscriptionStreamResponse;
-use OpenAI\Responses\Audio\TranslationResponse;
-use OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\Audio\SpeechStreamResponse;
+use DKing\OpenAI\Responses\Audio\TranscriptionResponse;
+use DKing\OpenAI\Responses\Audio\TranscriptionStreamResponse;
+use DKing\OpenAI\Responses\Audio\TranslationResponse;
+use DKing\OpenAI\Responses\StreamResponse;
 
 interface AudioContract
 {

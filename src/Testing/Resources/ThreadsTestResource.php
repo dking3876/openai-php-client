@@ -2,13 +2,13 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ThreadsContract;
-use OpenAI\Resources\Threads;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\Responses\Threads\Runs\ThreadRunResponse;
-use OpenAI\Responses\Threads\ThreadDeleteResponse;
-use OpenAI\Responses\Threads\ThreadResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ThreadsContract;
+use DKing\OpenAI\Resources\Threads;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\Threads\Runs\ThreadRunResponse;
+use DKing\OpenAI\Responses\Threads\ThreadDeleteResponse;
+use DKing\OpenAI\Responses\Threads\ThreadResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class ThreadsTestResource implements ThreadsContract
 {

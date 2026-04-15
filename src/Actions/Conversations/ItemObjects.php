@@ -4,24 +4,24 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Actions\Conversations;
 
-use OpenAI\Responses\Conversations\Objects\Message;
-use OpenAI\Responses\Responses\Input\ComputerToolCallOutput;
-use OpenAI\Responses\Responses\Input\CustomToolCallOutput;
-use OpenAI\Responses\Responses\Input\FunctionToolCallOutput;
-use OpenAI\Responses\Responses\Input\LocalShellCallOutput;
-use OpenAI\Responses\Responses\Input\McpApprovalResponse;
-use OpenAI\Responses\Responses\Output\OutputCodeInterpreterToolCall;
-use OpenAI\Responses\Responses\Output\OutputComputerToolCall;
-use OpenAI\Responses\Responses\Output\OutputCustomToolCall;
-use OpenAI\Responses\Responses\Output\OutputFileSearchToolCall;
-use OpenAI\Responses\Responses\Output\OutputFunctionToolCall;
-use OpenAI\Responses\Responses\Output\OutputImageGenerationToolCall;
-use OpenAI\Responses\Responses\Output\OutputLocalShellCall;
-use OpenAI\Responses\Responses\Output\OutputMcpApprovalRequest;
-use OpenAI\Responses\Responses\Output\OutputMcpCall;
-use OpenAI\Responses\Responses\Output\OutputMcpListTools;
-use OpenAI\Responses\Responses\Output\OutputReasoning;
-use OpenAI\Responses\Responses\Output\OutputWebSearchToolCall;
+use DKing\OpenAI\Responses\Conversations\Objects\Message;
+use DKing\OpenAI\Responses\Responses\Input\ComputerToolCallOutput;
+use DKing\OpenAI\Responses\Responses\Input\CustomToolCallOutput;
+use DKing\OpenAI\Responses\Responses\Input\FunctionToolCallOutput;
+use DKing\OpenAI\Responses\Responses\Input\LocalShellCallOutput;
+use DKing\OpenAI\Responses\Responses\Input\McpApprovalResponse;
+use DKing\OpenAI\Responses\Responses\Output\OutputCodeInterpreterToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputComputerToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputCustomToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputFileSearchToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputFunctionToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputImageGenerationToolCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputLocalShellCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputMcpApprovalRequest;
+use DKing\OpenAI\Responses\Responses\Output\OutputMcpCall;
+use DKing\OpenAI\Responses\Responses\Output\OutputMcpListTools;
+use DKing\OpenAI\Responses\Responses\Output\OutputReasoning;
+use DKing\OpenAI\Responses\Responses\Output\OutputWebSearchToolCall;
 
 /**
  * @phpstan-import-type MessageType from Message

@@ -2,9 +2,9 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Chat\CreateResponse;
-use OpenAI\Responses\Chat\CreateStreamedResponse;
-use OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\Chat\CreateResponse;
+use DKing\OpenAI\Responses\Chat\CreateStreamedResponse;
+use DKing\OpenAI\Responses\StreamResponse;
 
 interface ChatContract
 {

@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Images;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Exceptions\UnknownEventException;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Responses\Images\Streaming\Error;
-use OpenAI\Responses\Images\Streaming\ImageGenerationCompleted;
-use OpenAI\Responses\Images\Streaming\ImageGenerationPartialImage;
-use OpenAI\Testing\Responses\Concerns\FakeableForStreamedResponse;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Exceptions\UnknownEventException;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Responses\Images\Streaming\Error;
+use DKing\OpenAI\Responses\Images\Streaming\ImageGenerationCompleted;
+use DKing\OpenAI\Responses\Images\Streaming\ImageGenerationPartialImage;
+use DKing\OpenAI\Testing\Responses\Concerns\FakeableForStreamedResponse;
 
 /**
  * @phpstan-type EditStreamedResponseType array{event: string, data: array<string, mixed>}

@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\BatchesContract;
-use OpenAI\Responses\Batches\BatchListResponse;
-use OpenAI\Responses\Batches\BatchResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\BatchesContract;
+use DKing\OpenAI\Responses\Batches\BatchListResponse;
+use DKing\OpenAI\Responses\Batches\BatchResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class Batches implements BatchesContract
 {

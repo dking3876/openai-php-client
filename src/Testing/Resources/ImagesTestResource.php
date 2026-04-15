@@ -2,12 +2,12 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ImagesContract;
-use OpenAI\Resources\Images;
-use OpenAI\Responses\Images\CreateResponse;
-use OpenAI\Responses\Images\EditResponse;
-use OpenAI\Responses\Images\VariationResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ImagesContract;
+use DKing\OpenAI\Resources\Images;
+use DKing\OpenAI\Responses\Images\CreateResponse;
+use DKing\OpenAI\Responses\Images\EditResponse;
+use DKing\OpenAI\Responses\Images\VariationResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class ImagesTestResource implements ImagesContract
 {

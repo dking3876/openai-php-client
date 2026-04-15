@@ -2,10 +2,10 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\EmbeddingsContract;
-use OpenAI\Resources\Embeddings;
-use OpenAI\Responses\Embeddings\CreateResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\EmbeddingsContract;
+use DKing\OpenAI\Resources\Embeddings;
+use DKing\OpenAI\Responses\Embeddings\CreateResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class EmbeddingsTestResource implements EmbeddingsContract
 {

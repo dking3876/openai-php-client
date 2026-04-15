@@ -2,14 +2,14 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ResponsesContract;
-use OpenAI\Resources\Responses;
-use OpenAI\Responses\Responses\CreateResponse;
-use OpenAI\Responses\Responses\DeleteResponse;
-use OpenAI\Responses\Responses\ListInputItems;
-use OpenAI\Responses\Responses\RetrieveResponse;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ResponsesContract;
+use DKing\OpenAI\Resources\Responses;
+use DKing\OpenAI\Responses\Responses\CreateResponse;
+use DKing\OpenAI\Responses\Responses\DeleteResponse;
+use DKing\OpenAI\Responses\Responses\ListInputItems;
+use DKing\OpenAI\Responses\Responses\RetrieveResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class ResponsesTestResource implements ResponsesContract
 {

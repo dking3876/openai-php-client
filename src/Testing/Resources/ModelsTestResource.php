@@ -2,12 +2,12 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ModelsContract;
-use OpenAI\Resources\Models;
-use OpenAI\Responses\Models\DeleteResponse;
-use OpenAI\Responses\Models\ListResponse;
-use OpenAI\Responses\Models\RetrieveResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ModelsContract;
+use DKing\OpenAI\Resources\Models;
+use DKing\OpenAI\Responses\Models\DeleteResponse;
+use DKing\OpenAI\Responses\Models\ListResponse;
+use DKing\OpenAI\Responses\Models\RetrieveResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class ModelsTestResource implements ModelsContract
 {

@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ImagesContract;
-use OpenAI\Responses\Images\CreateResponse;
-use OpenAI\Responses\Images\CreateStreamedResponse;
-use OpenAI\Responses\Images\EditResponse;
-use OpenAI\Responses\Images\EditStreamedResponse;
-use OpenAI\Responses\Images\VariationResponse;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ImagesContract;
+use DKing\OpenAI\Responses\Images\CreateResponse;
+use DKing\OpenAI\Responses\Images\CreateStreamedResponse;
+use DKing\OpenAI\Responses\Images\EditResponse;
+use DKing\OpenAI\Responses\Images\EditStreamedResponse;
+use DKing\OpenAI\Responses\Images\VariationResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class Images implements ImagesContract
 {

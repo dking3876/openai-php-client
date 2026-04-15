@@ -2,11 +2,11 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\StreamResponse;
-use OpenAI\Responses\Threads\Runs\ThreadRunResponse;
-use OpenAI\Responses\Threads\Runs\ThreadRunStreamResponse;
-use OpenAI\Responses\Threads\ThreadDeleteResponse;
-use OpenAI\Responses\Threads\ThreadResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\Threads\Runs\ThreadRunResponse;
+use DKing\OpenAI\Responses\Threads\Runs\ThreadRunStreamResponse;
+use DKing\OpenAI\Responses\Threads\ThreadDeleteResponse;
+use DKing\OpenAI\Responses\Threads\ThreadResponse;
 
 interface ThreadsContract
 {

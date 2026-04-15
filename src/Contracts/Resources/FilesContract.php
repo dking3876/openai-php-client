@@ -2,10 +2,10 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Files\CreateResponse;
-use OpenAI\Responses\Files\DeleteResponse;
-use OpenAI\Responses\Files\ListResponse;
-use OpenAI\Responses\Files\RetrieveResponse;
+use DKing\OpenAI\Responses\Files\CreateResponse;
+use DKing\OpenAI\Responses\Files\DeleteResponse;
+use DKing\OpenAI\Responses\Files\ListResponse;
+use DKing\OpenAI\Responses\Files\RetrieveResponse;
 
 interface FilesContract
 {

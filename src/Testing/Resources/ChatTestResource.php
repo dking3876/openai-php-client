@@ -2,11 +2,11 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\ChatContract;
-use OpenAI\Resources\Chat;
-use OpenAI\Responses\Chat\CreateResponse;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\ChatContract;
+use DKing\OpenAI\Resources\Chat;
+use DKing\OpenAI\Responses\Chat\CreateResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class ChatTestResource implements ChatContract
 {

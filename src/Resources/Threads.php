@@ -4,16 +4,16 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ThreadsContract;
-use OpenAI\Contracts\Resources\ThreadsMessagesContract;
-use OpenAI\Contracts\Resources\ThreadsRunsContract;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\Responses\Threads\Runs\ThreadRunResponse;
-use OpenAI\Responses\Threads\Runs\ThreadRunStreamResponse;
-use OpenAI\Responses\Threads\ThreadDeleteResponse;
-use OpenAI\Responses\Threads\ThreadResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ThreadsContract;
+use DKing\OpenAI\Contracts\Resources\ThreadsMessagesContract;
+use DKing\OpenAI\Contracts\Resources\ThreadsRunsContract;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\Threads\Runs\ThreadRunResponse;
+use DKing\OpenAI\Responses\Threads\Runs\ThreadRunStreamResponse;
+use DKing\OpenAI\Responses\Threads\ThreadDeleteResponse;
+use DKing\OpenAI\Responses\Threads\ThreadResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class Threads implements ThreadsContract
 {

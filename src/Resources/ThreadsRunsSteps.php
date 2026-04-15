@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ThreadsRunsStepsContract;
-use OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepListResponse;
-use OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ThreadsRunsStepsContract;
+use DKing\OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepListResponse;
+use DKing\OpenAI\Responses\Threads\Runs\Steps\ThreadRunStepResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class ThreadsRunsSteps implements ThreadsRunsStepsContract
 {

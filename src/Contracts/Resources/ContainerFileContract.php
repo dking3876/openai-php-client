@@ -2,9 +2,9 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Containers\Files\ContainerFileDeleteResponse;
-use OpenAI\Responses\Containers\Files\ContainerFileListResponse;
-use OpenAI\Responses\Containers\Files\ContainerFileResponse;
+use DKing\OpenAI\Responses\Containers\Files\ContainerFileDeleteResponse;
+use DKing\OpenAI\Responses\Containers\Files\ContainerFileListResponse;
+use DKing\OpenAI\Responses\Containers\Files\ContainerFileResponse;
 
 interface ContainerFileContract
 {

@@ -2,8 +2,8 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\VectorStores\FileBatches\VectorStoreFileBatchResponse;
-use OpenAI\Responses\VectorStores\Files\VectorStoreFileListResponse;
+use DKing\OpenAI\Responses\VectorStores\FileBatches\VectorStoreFileBatchResponse;
+use DKing\OpenAI\Responses\VectorStores\Files\VectorStoreFileListResponse;
 
 interface VectorStoresFileBatchesContract
 {

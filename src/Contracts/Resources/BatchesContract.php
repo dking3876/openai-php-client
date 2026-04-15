@@ -2,8 +2,8 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Batches\BatchListResponse;
-use OpenAI\Responses\Batches\BatchResponse;
+use DKing\OpenAI\Responses\Batches\BatchListResponse;
+use DKing\OpenAI\Responses\Batches\BatchResponse;
 
 interface BatchesContract
 {

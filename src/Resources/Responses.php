@@ -4,15 +4,15 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ResponsesContract;
-use OpenAI\Responses\Responses\CreateResponse;
-use OpenAI\Responses\Responses\CreateStreamedResponse;
-use OpenAI\Responses\Responses\DeleteResponse;
-use OpenAI\Responses\Responses\ListInputItems;
-use OpenAI\Responses\Responses\RetrieveResponse;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ResponsesContract;
+use DKing\OpenAI\Responses\Responses\CreateResponse;
+use DKing\OpenAI\Responses\Responses\CreateStreamedResponse;
+use DKing\OpenAI\Responses\Responses\DeleteResponse;
+use DKing\OpenAI\Responses\Responses\ListInputItems;
+use DKing\OpenAI\Responses\Responses\RetrieveResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 /**
  * @phpstan-import-type CreateResponseType from CreateResponse

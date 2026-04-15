@@ -3,10 +3,10 @@
 namespace DKing\OpenAI\Responses;
 
 use Generator;
-use OpenAI\Contracts\ResponseHasMetaInformationContract;
-use OpenAI\Contracts\ResponseStreamContract;
-use OpenAI\Exceptions\ErrorException;
-use OpenAI\Responses\Meta\MetaInformation;
+use DKing\OpenAI\Contracts\ResponseHasMetaInformationContract;
+use DKing\OpenAI\Contracts\ResponseStreamContract;
+use DKing\OpenAI\Exceptions\ErrorException;
+use DKing\OpenAI\Responses\Meta\MetaInformation;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 

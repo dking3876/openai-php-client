@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\ContainerFileContract;
-use OpenAI\Responses\Containers\Files\ContainerFileDeleteResponse;
-use OpenAI\Responses\Containers\Files\ContainerFileListResponse;
-use OpenAI\Responses\Containers\Files\ContainerFileResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\ContainerFileContract;
+use DKing\OpenAI\Responses\Containers\Files\ContainerFileDeleteResponse;
+use DKing\OpenAI\Responses\Containers\Files\ContainerFileListResponse;
+use DKing\OpenAI\Responses\Containers\Files\ContainerFileResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 /**
  * @phpstan-import-type ContainerFileType from ContainerFileResponse

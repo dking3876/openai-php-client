@@ -4,16 +4,16 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Responses\Streaming;
 
-use OpenAI\Contracts\ResponseContract;
-use OpenAI\Contracts\ResponseHasMetaInformationContract;
-use OpenAI\Responses\Concerns\ArrayAccessible;
-use OpenAI\Responses\Concerns\HasMetaInformation;
-use OpenAI\Responses\Meta\MetaInformation;
-use OpenAI\Responses\Responses\Output\OutputMessageContentOutputTextAnnotationsContainerFile;
-use OpenAI\Responses\Responses\Output\OutputMessageContentOutputTextAnnotationsFileCitation;
-use OpenAI\Responses\Responses\Output\OutputMessageContentOutputTextAnnotationsFilePath;
-use OpenAI\Responses\Responses\Output\OutputMessageContentOutputTextAnnotationsUrlCitation;
-use OpenAI\Testing\Responses\Concerns\Fakeable;
+use DKing\OpenAI\Contracts\ResponseContract;
+use DKing\OpenAI\Contracts\ResponseHasMetaInformationContract;
+use DKing\OpenAI\Responses\Concerns\ArrayAccessible;
+use DKing\OpenAI\Responses\Concerns\HasMetaInformation;
+use DKing\OpenAI\Responses\Meta\MetaInformation;
+use DKing\OpenAI\Responses\Responses\Output\OutputMessageContentOutputTextAnnotationsContainerFile;
+use DKing\OpenAI\Responses\Responses\Output\OutputMessageContentOutputTextAnnotationsFileCitation;
+use DKing\OpenAI\Responses\Responses\Output\OutputMessageContentOutputTextAnnotationsFilePath;
+use DKing\OpenAI\Responses\Responses\Output\OutputMessageContentOutputTextAnnotationsUrlCitation;
+use DKing\OpenAI\Testing\Responses\Concerns\Fakeable;
 
 /**
  * @phpstan-import-type ContainerFileType from OutputMessageContentOutputTextAnnotationsContainerFile

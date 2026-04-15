@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Conversations\ConversationDeletedResponse;
-use OpenAI\Responses\Conversations\ConversationResponse;
+use DKing\OpenAI\Responses\Conversations\ConversationDeletedResponse;
+use DKing\OpenAI\Responses\Conversations\ConversationResponse;
 
 interface ConversationsContract
 {

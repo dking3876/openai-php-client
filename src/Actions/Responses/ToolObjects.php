@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Actions\Responses;
 
-use OpenAI\Responses\Responses\Tool\CodeInterpreterTool;
-use OpenAI\Responses\Responses\Tool\ComputerUseTool;
-use OpenAI\Responses\Responses\Tool\FileSearchTool;
-use OpenAI\Responses\Responses\Tool\FunctionTool;
-use OpenAI\Responses\Responses\Tool\ImageGenerationTool;
-use OpenAI\Responses\Responses\Tool\RemoteMcpTool;
-use OpenAI\Responses\Responses\Tool\WebSearchTool;
+use DKing\OpenAI\Responses\Responses\Tool\CodeInterpreterTool;
+use DKing\OpenAI\Responses\Responses\Tool\ComputerUseTool;
+use DKing\OpenAI\Responses\Responses\Tool\FileSearchTool;
+use DKing\OpenAI\Responses\Responses\Tool\FunctionTool;
+use DKing\OpenAI\Responses\Responses\Tool\ImageGenerationTool;
+use DKing\OpenAI\Responses\Responses\Tool\RemoteMcpTool;
+use DKing\OpenAI\Responses\Responses\Tool\WebSearchTool;
 
 /**
  * @phpstan-import-type ComputerUseToolType from ComputerUseTool

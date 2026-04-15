@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Responses\Concerns;
 
-use OpenAI\Responses\Meta\MetaInformation;
+use DKing\OpenAI\Responses\Meta\MetaInformation;
 
 trait HasMetaInformation
 {

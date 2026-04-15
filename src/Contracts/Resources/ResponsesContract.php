@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Responses\CreateResponse;
-use OpenAI\Responses\Responses\CreateStreamedResponse;
-use OpenAI\Responses\Responses\DeleteResponse;
-use OpenAI\Responses\Responses\ListInputItems;
-use OpenAI\Responses\Responses\RetrieveResponse;
-use OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\Responses\CreateResponse;
+use DKing\OpenAI\Responses\Responses\CreateStreamedResponse;
+use DKing\OpenAI\Responses\Responses\DeleteResponse;
+use DKing\OpenAI\Responses\Responses\ListInputItems;
+use DKing\OpenAI\Responses\Responses\RetrieveResponse;
+use DKing\OpenAI\Responses\StreamResponse;
 
 interface ResponsesContract
 {

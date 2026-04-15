@@ -2,13 +2,13 @@
 
 namespace DKing\OpenAI\Testing\Resources;
 
-use OpenAI\Contracts\Resources\FineTunesContract;
-use OpenAI\Resources\FineTunes;
-use OpenAI\Responses\FineTunes\ListEventsResponse;
-use OpenAI\Responses\FineTunes\ListResponse;
-use OpenAI\Responses\FineTunes\RetrieveResponse;
-use OpenAI\Responses\StreamResponse;
-use OpenAI\Testing\Resources\Concerns\Testable;
+use DKing\OpenAI\Contracts\Resources\FineTunesContract;
+use DKing\OpenAI\Resources\FineTunes;
+use DKing\OpenAI\Responses\FineTunes\ListEventsResponse;
+use DKing\OpenAI\Responses\FineTunes\ListResponse;
+use DKing\OpenAI\Responses\FineTunes\RetrieveResponse;
+use DKing\OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Testing\Resources\Concerns\Testable;
 
 final class FineTunesTestResource implements FineTunesContract
 {

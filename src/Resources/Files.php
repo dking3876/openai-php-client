@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace DKing\OpenAI\Resources;
 
-use OpenAI\Contracts\Resources\FilesContract;
-use OpenAI\Responses\Files\CreateResponse;
-use OpenAI\Responses\Files\DeleteResponse;
-use OpenAI\Responses\Files\ListResponse;
-use OpenAI\Responses\Files\RetrieveResponse;
-use OpenAI\ValueObjects\Transporter\Payload;
-use OpenAI\ValueObjects\Transporter\Response;
+use DKing\OpenAI\Contracts\Resources\FilesContract;
+use DKing\OpenAI\Responses\Files\CreateResponse;
+use DKing\OpenAI\Responses\Files\DeleteResponse;
+use DKing\OpenAI\Responses\Files\ListResponse;
+use DKing\OpenAI\Responses\Files\RetrieveResponse;
+use DKing\OpenAI\ValueObjects\Transporter\Payload;
+use DKing\OpenAI\ValueObjects\Transporter\Response;
 
 final class Files implements FilesContract
 {

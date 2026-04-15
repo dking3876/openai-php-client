@@ -4,9 +4,9 @@ namespace DKing\OpenAI\Responses\Audio;
 
 use Generator;
 use Http\Discovery\Psr17Factory;
-use OpenAI\Contracts\ResponseHasMetaInformationContract;
-use OpenAI\Contracts\ResponseStreamContract;
-use OpenAI\Responses\Meta\MetaInformation;
+use DKing\OpenAI\Contracts\ResponseHasMetaInformationContract;
+use DKing\OpenAI\Contracts\ResponseStreamContract;
+use DKing\OpenAI\Responses\Meta\MetaInformation;
 use Psr\Http\Message\ResponseInterface;
 
 /**

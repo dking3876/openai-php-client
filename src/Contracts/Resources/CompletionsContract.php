@@ -2,9 +2,9 @@
 
 namespace DKing\OpenAI\Contracts\Resources;
 
-use OpenAI\Responses\Completions\CreateResponse;
-use OpenAI\Responses\Completions\CreateStreamedResponse;
-use OpenAI\Responses\StreamResponse;
+use DKing\OpenAI\Responses\Completions\CreateResponse;
+use DKing\OpenAI\Responses\Completions\CreateStreamedResponse;
+use DKing\OpenAI\Responses\StreamResponse;
 
 interface CompletionsContract
 {
