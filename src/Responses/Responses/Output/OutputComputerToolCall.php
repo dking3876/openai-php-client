@@ -49,7 +49,7 @@ final class OutputComputerToolCall implements ResponseContract
      * @param  'computer_call'  $type
      */
     private function __construct(
-        public readonly Click|DoubleClick|Drag|KeyPress|Move|Screenshot|Scroll|Type|Wait $action,
+        public readonly array $actions,
         public readonly string $callId,
         public readonly string $id,
         public readonly array $pendingSafetyChecks,
@@ -62,17 +62,20 @@ final class OutputComputerToolCall implements ResponseContract
      */
     public static function from(array $attributes): self
     {
-        $action = match ($attributes['action']['type']) {
-            'click' => Click::from($attributes['action']),
-            'double_click' => DoubleClick::from($attributes['action']),
-            'drag' => Drag::from($attributes['action']),
-            'keypress' => KeyPress::from($attributes['action']),
-            'move' => Move::from($attributes['action']),
-            'screenshot' => Screenshot::from($attributes['action']),
-            'scroll' => Scroll::from($attributes['action']),
-            'type' => Type::from($attributes['action']),
-            'wait' => Wait::from($attributes['action']),
-        };
+        $actions = [];
+        foreach($attributes['actions'] as $action) {
+            $actions[] = match ($action['type']) {
+                'click' => Click::from($action),
+                'double_click' => DoubleClick::from($action),
+                'drag' => Drag::from($action),
+                'keypress' => KeyPress::from($action),
+                'move' => Move::from($action),
+                'screenshot' => Screenshot::from($action),
+                'scroll' => Scroll::from($action),
+                'type' => Type::from($action),
+            };
+        }
+
 
         $pendingSafetyChecks = array_map(
             fn (array $safetyCheck): OutputComputerPendingSafetyCheck => OutputComputerPendingSafetyCheck::from($safetyCheck),
@@ -80,7 +83,7 @@ final class OutputComputerToolCall implements ResponseContract
         );
 
         return new self(
-            action: $action,
+            actions: $actions,
             callId: $attributes['call_id'],
             id: $attributes['id'],
             pendingSafetyChecks: $pendingSafetyChecks,
@@ -98,7 +101,7 @@ final class OutputComputerToolCall implements ResponseContract
             'type' => $this->type,
             'call_id' => $this->callId,
             'id' => $this->id,
-            'action' => $this->action->toArray(),
+            'actions' => $this->actions,
             'pending_safety_checks' => array_map(
                 fn (OutputComputerPendingSafetyCheck $safetyCheck): array => $safetyCheck->toArray(),
                 $this->pendingSafetyChecks,
