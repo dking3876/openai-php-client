@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Responses\Input;
+namespace DKing\OpenAI\Responses\Responses\Input;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Responses\Concerns\ArrayAccessible;

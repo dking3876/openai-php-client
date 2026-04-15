@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Responses\Chat;
+namespace DKing\OpenAI\Responses\Chat;
 
 final class CreateResponseChoiceAnnotations
 {

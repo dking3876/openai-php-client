@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Resources\Concerns;
+namespace DKing\OpenAI\Resources\Concerns;
 
 use OpenAI\Contracts\TransporterContract;
 

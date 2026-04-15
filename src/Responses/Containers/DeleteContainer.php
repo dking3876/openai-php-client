@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Containers;
+namespace DKing\OpenAI\Responses\Containers;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Contracts\ResponseHasMetaInformationContract;

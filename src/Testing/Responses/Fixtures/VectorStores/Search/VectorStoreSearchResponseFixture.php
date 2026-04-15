@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Responses\Fixtures\VectorStores\Search;
+namespace DKing\OpenAI\Testing\Responses\Fixtures\VectorStores\Search;
 
 final class VectorStoreSearchResponseFixture
 {

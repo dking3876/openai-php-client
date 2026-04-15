@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Contracts;
+namespace DKing\OpenAI\Contracts;
 
 use OpenAI\Contracts\Resources\AssistantsContract;
 use OpenAI\Contracts\Resources\AudioContract;

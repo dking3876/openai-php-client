@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Actions\Responses;
+namespace DKing\OpenAI\Actions\Responses;
 
 use OpenAI\Responses\Responses\Input\ComputerToolCallOutput;
 use OpenAI\Responses\Responses\Input\CustomToolCallOutput;

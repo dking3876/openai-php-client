@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Threads\Runs\Steps\Delta;
+namespace DKing\OpenAI\Responses\Threads\Runs\Steps\Delta;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Responses\Concerns\ArrayAccessible;

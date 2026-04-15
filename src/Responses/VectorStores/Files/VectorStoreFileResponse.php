@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\VectorStores\Files;
+namespace DKing\OpenAI\Responses\VectorStores\Files;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Contracts\ResponseHasMetaInformationContract;

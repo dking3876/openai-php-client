@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI;
+namespace DKing\OpenAI;
 
 use Closure;
 use Exception;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Audio;
+namespace DKing\OpenAI\Responses\Audio;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Exceptions\UnknownEventException;

@@ -35,7 +35,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OpenAI\\": "src/"
+            "DKing\\OpenAI\\": "src/"
         },
         "files": [
             "src/OpenAI.php"

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Contracts\Resources;
+namespace DKing\OpenAI\Contracts\Resources;
 
 use OpenAI\Responses\Responses\CreateResponse;
 use OpenAI\Responses\Responses\CreateStreamedResponse;

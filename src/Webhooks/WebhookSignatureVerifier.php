@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Webhooks;
+namespace DKing\OpenAI\Webhooks;
 
 use DateTimeInterface;
 use OpenAI\Exceptions\WebhookVerificationException;

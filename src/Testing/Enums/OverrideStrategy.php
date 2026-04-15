@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Testing\Enums;
+namespace DKing\OpenAI\Testing\Enums;
 
 enum OverrideStrategy: string
 {

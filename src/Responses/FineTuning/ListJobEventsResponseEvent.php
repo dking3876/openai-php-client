@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\FineTuning;
+namespace DKing\OpenAI\Responses\FineTuning;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Enums\FineTuning\FineTuningEventLevel;

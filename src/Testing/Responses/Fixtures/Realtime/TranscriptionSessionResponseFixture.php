@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Responses\Fixtures\Realtime;
+namespace DKing\OpenAI\Testing\Responses\Fixtures\Realtime;
 
 final class TranscriptionSessionResponseFixture
 {

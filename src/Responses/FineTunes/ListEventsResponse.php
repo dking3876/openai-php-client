@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\FineTunes;
+namespace DKing\OpenAI\Responses\FineTunes;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Contracts\ResponseHasMetaInformationContract;

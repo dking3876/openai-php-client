@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Edits;
+namespace DKing\OpenAI\Responses\Edits;
 
 final class CreateResponseChoice
 {

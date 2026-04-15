@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Responses\Meta;
+namespace DKing\OpenAI\Responses\Meta;
 
 use OpenAI\Contracts\MetaInformationContract;
 use OpenAI\Responses\Concerns\ArrayAccessible;

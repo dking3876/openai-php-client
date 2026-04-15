@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Enums\Webhooks;
+namespace DKing\OpenAI\Enums\Webhooks;
 
 enum WebhookEvent: string
 {

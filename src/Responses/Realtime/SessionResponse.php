@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Realtime;
+namespace DKing\OpenAI\Responses\Realtime;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Responses\Concerns\ArrayAccessible;

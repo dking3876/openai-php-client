@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Resources;
+namespace DKing\OpenAI\Resources;
 
 use OpenAI\Contracts\Resources\ChatContract;
 use OpenAI\Responses\Chat\CreateResponse;

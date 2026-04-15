@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Testing\Responses\Concerns;
+namespace DKing\OpenAI\Testing\Responses\Concerns;
 
 use OpenAI\Responses\Meta\MetaInformation;
 use OpenAI\Testing\Enums\OverrideStrategy;

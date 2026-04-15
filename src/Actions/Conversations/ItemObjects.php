@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Actions\Conversations;
+namespace DKing\OpenAI\Actions\Conversations;
 
 use OpenAI\Responses\Conversations\Objects\Message;
 use OpenAI\Responses\Responses\Input\ComputerToolCallOutput;

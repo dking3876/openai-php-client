@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Responses\Fixtures\Containers;
+namespace DKing\OpenAI\Testing\Responses\Fixtures\Containers;
 
 final class CreateContainerFixture
 {

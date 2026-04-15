@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Responses\Fixtures\Images;
+namespace DKing\OpenAI\Testing\Responses\Fixtures\Images;
 
 final class CreateResponseFixture
 {

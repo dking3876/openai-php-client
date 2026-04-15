@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Resources;
+namespace DKing\OpenAI\Testing\Resources;
 
 use OpenAI\Contracts\Resources\ContainerFileContract;
 use OpenAI\Resources\ContainerFile;

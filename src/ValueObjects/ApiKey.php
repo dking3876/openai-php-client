@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\ValueObjects;
+namespace DKing\OpenAI\ValueObjects;
 
 use OpenAI\Contracts\StringableContract;
 

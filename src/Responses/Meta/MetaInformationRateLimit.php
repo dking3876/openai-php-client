@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Responses\Meta;
+namespace DKing\OpenAI\Responses\Meta;
 
 final class MetaInformationRateLimit
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Responses\Audio;
+namespace DKing\OpenAI\Responses\Audio;
 
 use Generator;
 use Http\Discovery\Psr17Factory;

@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Responses\Fixtures\Batches;
+namespace DKing\OpenAI\Testing\Responses\Fixtures\Batches;
 
 final class BatchResponseFixture
 {

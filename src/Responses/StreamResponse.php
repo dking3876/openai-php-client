@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Responses;
+namespace DKing\OpenAI\Responses;
 
 use Generator;
 use OpenAI\Contracts\ResponseHasMetaInformationContract;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Transporters;
+namespace DKing\OpenAI\Transporters;
 
 use Closure;
 use GuzzleHttp\Exception\ClientException;

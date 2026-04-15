@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Responses\Output\ComputerAction;
+namespace DKing\OpenAI\Responses\Responses\Output\ComputerAction;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Responses\Concerns\ArrayAccessible;

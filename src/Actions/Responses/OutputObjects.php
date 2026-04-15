@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Actions\Responses;
+namespace DKing\OpenAI\Actions\Responses;
 
 use OpenAI\Responses\Responses\Output\OutputCodeInterpreterToolCall;
 use OpenAI\Responses\Responses\Output\OutputComputerToolCall;

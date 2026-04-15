@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Conversations\Objects\MessageTypes;
+namespace DKing\OpenAI\Responses\Conversations\Objects\MessageTypes;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Responses\Concerns\ArrayAccessible;

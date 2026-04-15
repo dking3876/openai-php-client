@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Requests;
+namespace DKing\OpenAI\Testing\Requests;
 
 final class TestRequest
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Resources;
+namespace DKing\OpenAI\Resources;
 
 use OpenAI\Contracts\Resources\FineTuningContract;
 use OpenAI\Responses\FineTuning\ListJobEventsResponse;

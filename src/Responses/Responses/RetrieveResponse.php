@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Responses;
+namespace DKing\OpenAI\Responses\Responses;
 
 use OpenAI\Actions\Responses\OutputObjects;
 use OpenAI\Actions\Responses\OutputText;

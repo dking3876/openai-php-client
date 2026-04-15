@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\ValueObjects\Transporter;
+namespace DKing\OpenAI\ValueObjects\Transporter;
 
 use OpenAI\Enums\Transporter\ContentType;
 use OpenAI\ValueObjects\ApiKey;

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI;
+namespace DKing\OpenAI;
 
 use OpenAI\Contracts\ClientContract;
 use OpenAI\Contracts\Resources\RealtimeContract;

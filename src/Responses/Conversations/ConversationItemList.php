@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Conversations;
+namespace DKing\OpenAI\Responses\Conversations;
 
 use OpenAI\Actions\Conversations\ItemObjects;
 use OpenAI\Contracts\ResponseContract;

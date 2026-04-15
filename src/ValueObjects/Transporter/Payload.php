@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\ValueObjects\Transporter;
+namespace DKing\OpenAI\ValueObjects\Transporter;
 
 use Http\Discovery\Psr17Factory;
 use Http\Message\MultipartStream\MultipartStreamBuilder;

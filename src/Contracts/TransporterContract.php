@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Contracts;
+namespace DKing\OpenAI\Contracts;
 
 use OpenAI\Exceptions\ErrorException;
 use OpenAI\Exceptions\TransporterException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Resources\Concerns;
+namespace DKing\OpenAI\Testing\Resources\Concerns;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Contracts\ResponseStreamContract;

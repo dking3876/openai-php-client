@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Resources\Concerns;
+namespace DKing\OpenAI\Resources\Concerns;
 
 use OpenAI\Exceptions\InvalidArgumentException;
 

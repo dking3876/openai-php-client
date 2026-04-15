@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Contracts\Resources;
+namespace DKing\OpenAI\Contracts\Resources;
 
 use OpenAI\Responses\VectorStores\Search\VectorStoreSearchResponse;
 use OpenAI\Responses\VectorStores\VectorStoreDeleteResponse;

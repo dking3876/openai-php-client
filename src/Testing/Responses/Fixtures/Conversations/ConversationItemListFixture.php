@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Responses\Fixtures\Conversations;
+namespace DKing\OpenAI\Testing\Responses\Fixtures\Conversations;
 
 final class ConversationItemListFixture
 {

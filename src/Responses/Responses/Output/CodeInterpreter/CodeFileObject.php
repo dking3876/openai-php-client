@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Responses\Output\CodeInterpreter;
+namespace DKing\OpenAI\Responses\Responses\Output\CodeInterpreter;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Responses\Concerns\ArrayAccessible;

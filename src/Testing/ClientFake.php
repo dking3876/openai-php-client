@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing;
+namespace DKing\OpenAI\Testing;
 
 use OpenAI\Contracts\ClientContract;
 use OpenAI\Contracts\Resources\VectorStoresContract;

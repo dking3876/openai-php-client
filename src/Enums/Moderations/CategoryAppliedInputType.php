@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Enums\Moderations;
+namespace DKing\OpenAI\Enums\Moderations;
 
 enum CategoryAppliedInputType: string
 {

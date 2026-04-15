@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Exceptions;
+namespace DKing\OpenAI\Exceptions;
 
 use RuntimeException;
 

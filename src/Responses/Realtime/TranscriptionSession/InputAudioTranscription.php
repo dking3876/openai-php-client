@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace OpenAI\Responses\Realtime\TranscriptionSession;
+namespace DKing\OpenAI\Responses\Realtime\TranscriptionSession;
 
 use OpenAI\Contracts\ResponseContract;
 use OpenAI\Responses\Concerns\ArrayAccessible;

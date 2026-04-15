@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Responses\Fixtures\Embeddings;
+namespace DKing\OpenAI\Testing\Responses\Fixtures\Embeddings;
 
 final class CreateResponseFixture
 {

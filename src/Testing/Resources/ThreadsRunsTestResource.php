@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenAI\Testing\Resources;
+namespace DKing\OpenAI\Testing\Resources;
 
 use OpenAI\Contracts\Resources\ThreadsRunsContract;
 use OpenAI\Resources\ThreadsRuns;
