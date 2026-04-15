@@ -1,9 +1,9 @@
 <?php
 
 declare(strict_types=1);
-
-use OpenAI\Client;
-use OpenAI\Factory;
+namespace DKing\OpenAI;
+use DKing\OpenAI\Client;
+use DKing\OpenAI\Factory;
 
 final class OpenAI
 {
