@@ -73,6 +73,7 @@ final class OutputComputerToolCall implements ResponseContract
                 'screenshot' => Screenshot::from($action),
                 'scroll' => Scroll::from($action),
                 'type' => Type::from($action),
+                'wait' => Wait::from($action),
             };
         }
     $pendingSafetyChecks = [];
