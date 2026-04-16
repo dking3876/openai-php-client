@@ -26,9 +26,9 @@ final class ComputerUseTool implements ResponseContract
      * @param  'computer_use_preview'  $type
      */
     private function __construct(
-        public readonly int $displayHeight,
-        public readonly int $displayWidth,
-        public readonly string $environment,
+        public readonly int|null $displayHeight,
+        public readonly int|null $displayWidth,
+        public readonly string|null $environment,
         public readonly string $type,
     ) {}
 
@@ -38,9 +38,9 @@ final class ComputerUseTool implements ResponseContract
     public static function from(array $attributes): self
     {
         return new self(
-            displayHeight: $attributes['display_height'],
-            displayWidth: $attributes['display_width'],
-            environment: $attributes['environment'],
+            displayHeight: $attributes['display_height']??null,
+            displayWidth: $attributes['display_width']??null,
+            environment: $attributes['environment']??null,
             type: $attributes['type'],
         );
     }

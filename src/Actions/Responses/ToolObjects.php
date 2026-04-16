@@ -38,6 +38,7 @@ final class ToolObjects
                 'web_search', 'web_search_preview', 'web_search_preview_2025_03_11' => WebSearchTool::from($tool),
                 'function' => FunctionTool::from($tool),
                 'computer_use_preview' => ComputerUseTool::from($tool),
+                'computer' => ComputerUseTool::from($tool),
                 'image_generation' => ImageGenerationTool::from($tool),
                 'mcp' => RemoteMcpTool::from($tool),
                 'code_interpreter' => CodeInterpreterTool::from($tool),
