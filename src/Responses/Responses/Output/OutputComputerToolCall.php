@@ -75,12 +75,13 @@ final class OutputComputerToolCall implements ResponseContract
                 'type' => Type::from($action),
             };
         }
-
-
-        $pendingSafetyChecks = array_map(
-            fn (array $safetyCheck): OutputComputerPendingSafetyCheck => OutputComputerPendingSafetyCheck::from($safetyCheck),
-            $attributes['pending_safety_checks']
-        );
+    $pendingSafetyChecks = [];
+        if(isset($attributes['pending_safety_checks'])) {
+            $pendingSafetyChecks = array_map(
+                fn(array $safetyCheck): OutputComputerPendingSafetyCheck => OutputComputerPendingSafetyCheck::from($safetyCheck),
+                $attributes['pending_safety_checks']
+            );
+        }
 
         return new self(
             actions: $actions,
